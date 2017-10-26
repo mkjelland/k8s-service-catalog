@@ -24,7 +24,7 @@ import (
 	"github.com/golang/glog"
 	"github.com/spf13/cobra"
 
-	"github.com/GoogleCloudPlatform/k8s-service-catalog/installer/pkg/cmd"
+	"github.com/mkjelland/k8s-service-catalog/installer/pkg/cmd"
 )
 
 func main() {

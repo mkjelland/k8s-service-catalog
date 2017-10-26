@@ -27,9 +27,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/GoogleCloudPlatform/k8s-service-catalog/installer/pkg/broker-cli/auth"
-	"github.com/GoogleCloudPlatform/k8s-service-catalog/installer/pkg/broker-cli/client/adapter"
-	"github.com/GoogleCloudPlatform/k8s-service-catalog/installer/pkg/gcp"
+	"github.com/mkjelland/k8s-service-catalog/installer/pkg/broker-cli/auth"
+	"github.com/mkjelland/k8s-service-catalog/installer/pkg/broker-cli/client/adapter"
+	"github.com/mkjelland/k8s-service-catalog/installer/pkg/gcp"
 	"github.com/spf13/cobra"
 )
 
