@@ -24,7 +24,7 @@ import (
 
 const (
 	DeploymentManagerAPI = "deploymentmanager.googleapis.com"
-	ServiceRegistryAPI   = "serviceregistry.googleapis.com"
+	ServiceRegistryAPI   = "staging-serviceregistry.googleapis.com"
 	ServiceBrokerAPI     = "servicebroker.googleapis.com"
 )
 
