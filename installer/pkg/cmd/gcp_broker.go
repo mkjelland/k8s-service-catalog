@@ -145,7 +145,7 @@ func getOrCreateVirtualBroker(projectID, brokerName, brokerTitle string) (*virtu
 		return nil, fmt.Errorf("failed to create broker client. You might want to run 'gcloud auth application-default login'")
 	}
 
-	registryURL := "https://staging-serviceregistry.googleapis.com"
+	registryURL := "https://staging-serviceregistry.sandbox.googleapis.com"
 
 	res, err := brokerClient.GetBroker(&adapter.GetBrokerParams{
 		RegistryURL: registryURL,
