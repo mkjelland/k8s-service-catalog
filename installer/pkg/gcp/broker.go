@@ -24,8 +24,8 @@ import (
 
 const (
 	DeploymentManagerAPI = "deploymentmanager.googleapis.com"
-	ServiceRegistryAPI   = "staging-serviceregistry.sandbox.googleapis.com"
-	ServiceBrokerAPI     = "staging-servicebroker.sandbox.googleapis.com"
+	ServiceRegistryAPI   = "serviceregistry.googleapis.com"
+	ServiceBrokerAPI     = "servicebroker.googleapis.com"
 )
 
 // EnableAPIs enables given APIs in user's GCP project.
