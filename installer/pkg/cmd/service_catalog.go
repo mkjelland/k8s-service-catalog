@@ -52,7 +52,7 @@ var (
 		{name: "rbac"},
 		{name: "service"},
 		{name: "apiserver-deployment"},
-		{name: "controller-manager-deployment"},
+		{name: "controller-manager-deployment", dependsOnAPI: "servicecatalog.k8s.io/v1beta1"},
 		{name: "etcd-cluster-with-backup", dependsOnAPI: "etcd.database.coreos.com/v1beta2"},
 	}
 )
